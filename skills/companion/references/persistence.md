@@ -1,10 +1,18 @@
-# Local profile and goal persistence
+# Profile and goal persistence
 
 Read this before saving personal context or changing project instructions.
 
+## Storage boundary
+
+Before the first save, explain where the selected host will write the record. In cloud Cowork, a session workspace is cloud storage; connected local files may also be copied and processed on Anthropic's servers. A path named `profile.md` does not prove the record stays on the person's device. Do not describe the host's cloud sandbox as the user's own computer or assume a `~/` path refers to their home folder.
+
+Separate saving a profile from the host's chat history, memory, logging, training preferences, and retention. Declining a file save does not erase the dialogue. The plugin cannot disable those host features or guarantee deletion; refer to the host's actual controls and the [cloud-service evaluation guide](https://agency-lab.glebkalinin.com/library/ru/cloud-services-risks). Do not save sensitive third-party information or credentials as routine profile context.
+
+Use the person's selected destination and describe it accurately. If only cloud file creation is available, offer a downloadable record rather than claiming a device-local save. Verify delivery to a local destination before reporting it as local; do not silently fall back to cloud storage when local-only storage was requested.
+
 ## Location and authority
 
-Use a folder the user supplied or an existing companion context location in the current session/workspace. Do not search a personal vault or home directory to find a profile. At the first save, if the location is unknown, suggest a dedicated folder such as `~/goal-driven-ai-context/` and ask where to save.
+Use a folder the user supplied or an existing companion context location in the current session/workspace. Do not search a personal vault or home directory to find a profile. At the first save, if the location is unknown, ask where to save. On a device-local host you may suggest a dedicated folder such as `~/goal-driven-ai-context/`; on a cloud-only host offer a cloud record for download and explain that boundary.
 
 Resolve `~` with the host's actual home directory and check the resulting path. A default suggestion is not an approved location. Respect filesystem permissions. Do not save personal context in the course-site source tree by default, create files in the home directory root, or add credentials to a profile.
 
