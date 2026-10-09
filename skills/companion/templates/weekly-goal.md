@@ -13,6 +13,10 @@ last_confirmed: "{{confirmation_date}}"
 
 # {{goal_title}}
 
+## Связь с выбранным направлением
+
+{{optional_broader_direction_reference}}
+
 ## Результат и зачем он нужен
 
 {{desired_outcome_and_motivation}}
@@ -36,6 +40,10 @@ last_confirmed: "{{confirmation_date}}"
 ## Первый шаг и точка проверки
 
 {{first_action_inputs_expected_output_and_review_checkpoint}}
+
+## Когда пересмотреть или остановиться
+
+{{agreed_effort_limit_and_reconsideration_conditions}}
 
 ## Прогресс и источники
 

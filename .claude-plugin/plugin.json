@@ -1,7 +1,7 @@
 {
   "name": "goal-driven-ai",
-  "version": "0.2.0",
-  "description": "Russian-default goal companion with shared profiles, weekly goals, course practice, session reviews, and lesson toolkit setup.",
+  "version": "0.3.0",
+  "description": "Russian-default, user-led life-context companion with T-shaped coaching, optional goals, critical scope review, and course support.",
   "author": {
     "name": "Gleb Kalinin"
   },

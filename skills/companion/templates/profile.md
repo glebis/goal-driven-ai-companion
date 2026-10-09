@@ -7,27 +7,27 @@ updated: "{{save_date}}"
 last_confirmed: "{{confirmation_date}}"
 ---
 
-# Рабочий профиль
+# Мой контекст
 
-## Работа и задачи
+## Что сейчас важно и какие темы я выбираю
 
-{{confirmed_work_context}}
+{{confirmed_chosen_areas_directions_and_current_circumstances}}
 
-## Что хочется изменить
+## Чего хочется больше, меньше или иначе
 
 {{confirmed_desired_change}}
 
-## Время и ограничения
+## Ресурсы, поддержка и ограничения
 
-{{confirmed_capacity_and_constraints}}
+{{confirmed_resources_support_capacity_and_boundaries}}
 
 ## Как мы работаем вместе
 
 {{confirmed_collaboration_preferences}}
 
-## Возможности для работы с агентом
+## Возможные следующие шаги
 
-{{confirmed_opportunities_or_explicitly_unconfirmed_suggestions}}
+{{chosen_next_steps_or_explicitly_unconfirmed_suggestions}}
 
 ## Источники и подтверждения
 

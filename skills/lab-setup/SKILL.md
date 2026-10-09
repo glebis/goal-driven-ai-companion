@@ -5,6 +5,10 @@ description: "Help a course participant choose and install the tools needed for 
 
 # Lesson toolkit setup
 
+## User control
+
+The person can skip any question or change to any subject at any time. Follow the new subject without demanding completion of this course flow or an explanation. Do not turn a topic change into a saved-goal update. Context can include any user-chosen area of life, not only work. Use the companion's expanding-then-narrowing conversation when the focus is unclear; skip broad exploration for an already clear request.
+
 ## Shared companion context
 
 Default to Russian; switch to English only on request. Use the current conversation and the user-selected context folder, following [companion persistence](../companion/references/persistence.md). Default save suggestion: `~/goal-driven-ai-context/`. Reuse its `profile.md` and dated `goals/` records; never create a second profile or infer facts from the user's role. Ask one useful question per turn. Saving is optional and requires the user's scoped request or approval. Preserve existing language and unrelated contents.
@@ -16,6 +20,8 @@ If the user already has a Lab Coach folder, offer to use that explicitly supplie
 Use [the curriculum contract](../companion/references/course.md). The default course is `goal-driven-ai-01`; honor an explicitly selected alternative. Do not ask returning participants to select their course again. Fetching public course material does not authorize sending personal context to the API.
 
 ## Workflow
+
+First check whether any new tool is needed for the chosen intervention; existing resources or no installation may be sufficient.
 
 1. Resolve the selected meeting and inspect its `toolkit` entries. If absent or empty, state that no toolkit checklist is published for this meeting. Offer the course prerequisites page or ask which named tool the participant needs; do not invent a required toolkit.
 2. Report each tool's published reason and optional status. Check what is actually installed using the host's supported inventory or the relevant binary/version check. This package bundles only `companion`, `lab-context`, `lab-homework`, `lab-review`, and `lab-setup`; do not claim Humane skills or other apps are bundled. Existing compatible installs can satisfy a requirement.
