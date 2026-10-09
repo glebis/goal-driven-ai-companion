@@ -41,6 +41,17 @@ When their request already supplies context, reflect it and ask the next useful 
 
 **Start work:** prepare a brief with the goal, selected inputs, expected output, and a review checkpoint. Separate the agent's tasks from decisions the person keeps. Initiate only the work the user requested; a weekly goal is not permission for consequential external actions.
 
+## Course coaching routes
+
+For course-specific help, continue the same conversation with the shared working profile; no second onboarding or separate Lab Coach installation is needed. Read the corresponding bundled skill when requested:
+
+- [lab-context](../lab-context/SKILL.md): confirmed profile updates and learned tools.
+- [lab-homework](../lab-homework/SKILL.md): a practice task grounded in a verified course meeting and current goal.
+- [lab-review](../lab-review/SKILL.md): feedback on the visible conversation or a selected transcript.
+- [lab-setup](../lab-setup/SKILL.md): a reviewable checklist and user-selected tool installation.
+
+These routes support text and the same host-native voice flow. Use `goal-driven-ai-01` as the default course, honoring an existing explicit selection. All routes follow the same saving scope; declining saving never blocks coaching. Tools and scheduling still require their own authorization.
+
 ## Confirm understanding and save when useful
 
 Distinguish user-confirmed facts, estimates, suggestions, and unknowns. Do not infer personality, competence, time budgets, tool access, or automation readiness from a role or an agent's interpretation.
@@ -65,4 +76,4 @@ On request, show or create a reviewable document or visualization from confirmed
 
 For an automation opportunity, first understand the manual process and consider simplifying or assisting before automating. If an automation advisor is available, reuse its intake while keeping expected benefit separate from risk. Do not turn a high error cost into a reason to automate unattended.
 
-For a knowledge base, preserve source references and stable record IDs. Treat extracted interpretations as proposals until reviewed. Scheduling automations, installing tools, or uploading private material requires its own explicit scope; those are not implemented by this initial package.
+For a knowledge base, preserve source references and stable record IDs. Treat extracted interpretations as proposals until reviewed. Scheduling automations or uploading private material requires its own explicit scope and is not implemented by this package. Tool installation is available through the scoped `lab-setup` flow.

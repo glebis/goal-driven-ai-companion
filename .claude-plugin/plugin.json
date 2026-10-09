@@ -1,7 +1,7 @@
 {
   "name": "goal-driven-ai",
-  "version": "0.1.0",
-  "description": "A Russian-default companion for working profiles, weekly goals, and getting started with agents. Supports the host's existing dialogue and voice mode.",
+  "version": "0.2.0",
+  "description": "Russian-default goal companion with shared profiles, weekly goals, course practice, session reviews, and lesson toolkit setup.",
   "author": {
     "name": "Gleb Kalinin"
   },

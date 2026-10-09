@@ -18,7 +18,17 @@ A dialogue-first companion that helps you build a working profile, choose a week
 npx skills add glebis/goal-driven-ai-companion --agent codex -g -y
 ```
 
-Then invoke `$companion`.
+Then open a new chat and invoke `$companion`. This installs all five skills so course coaching is available too.
+
+## Included skills
+
+- `companion`: dialogue, profile, weekly goal, and first agent task.
+- `lab-context`: updates to the same profile and learning context.
+- `lab-homework`: practice grounded in the course curriculum and your goal.
+- `lab-review`: evidence-based feedback on a conversation or selected transcript.
+- `lab-setup`: selected lesson tools, with installation review and verification.
+
+In Claude Code, use `/goal-driven-ai:companion` or a direct command such as `/goal-driven-ai:lab-homework`. Enter slash commands inside Claude Code. In Codex, use `$companion` or `$lab-homework`. Russian is the default; English is available on request. Existing Lab Coach users can keep using their selected context folder; there is no automatic migration or deletion. No separate Lab Coach install is required. Design skills remain optional external tools.
 
 ## How it works
 
