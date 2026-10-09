@@ -1,0 +1,4 @@
+interface:
+  display_name: "Goal-Driven AI"
+  short_description: "Рабочий профиль, цели на неделю и первый шаг с агентом"
+  default_prompt: "Используй $companion: помоги мне выбрать полезную цель на неделю и начать работу с агентом."

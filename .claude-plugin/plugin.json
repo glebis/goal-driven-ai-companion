@@ -1,0 +1,10 @@
+{
+  "name": "goal-driven-ai",
+  "version": "0.1.0",
+  "description": "A Russian-default companion for working profiles, weekly goals, and getting started with agents. Supports the host's existing dialogue and voice mode.",
+  "author": {
+    "name": "Gleb Kalinin"
+  },
+  "homepage": "https://github.com/glebis/goal-driven-ai-companion",
+  "license": "MIT"
+}
